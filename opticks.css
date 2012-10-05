@@ -1,0 +1,15 @@
+* { margin:0; padding:0; }
+body, HTML { background: url("images/chyeah.png") #121212 repeat-x }
+#rotator, #corners { width:612px; height:612px; overflow:hidden; position:absolute; text-align:center; top:0; left:50%; margin:0 0 0 -306px; }
+#rotator { display:none; }
+#corners { z-index:500; line-height:306px; text-align:center; }
+#corners h1 { font-size: 92px; color:#fff; display:inline-block; }
+#rotator li { float:left; position:absolute; list-style: none; }
+#rotator li img { width:612px; height:612px; }
+#rotator li.show { z-index:1000 }
+#list { list-style:none; text-align:center; line-height:20px; }
+#list li { text-align:center; }
+#contact { z-index:1001; position:absolute; bottom:20px; left:50%; margin:0 0 0 -306px; width:612px; }
+#contact li { color:#fff; font-size:14px; }
+#contact a { color:#f3c; }
+#contact a:hover { text-decoration:none; }
