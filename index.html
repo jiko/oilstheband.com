@@ -5,19 +5,34 @@
 		<meta charset='utf-8'>
     		<link rel="stylesheet" type="text/css" href="opticks.css" />
 	</head>
-	<body>
-		<div id="corners">
-			<iframe width="560" height="315" src="http://www.youtube.com/embed/wBTQEKoGbO4" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div id="contact">
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=153183418161352";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="corners">
+      <h1>OILS</h1>
+      <img src="images/DUCK.jpg" alt="DUCK" title="New single 'Duck' coming soon!" />
+      <h2>Upcoming Shows</h2>
+      <ul id="shows">
+        <li>March 26th with Swimming @ The Replay Lounge. Lawrence, KS.</li>
+        <li>April 6th Middle of the Map Festival, details TBA</li>
+        <li>April 11th with Bo and the Locomotive @ The Replay Lounge. Lawrence, KS.</li>
+        <li>April 29th with Rooms Without Windows @ The Jackpot. Lawrence, KS</li>
+      </ul>
+    </div>
+    <div id="contact">
 			<ul id="list">
-				<li><a href="http://www.youtube.com/oilstheband">videos</a></li>
-				<li><a href="http://www.facebook.com/oilstheband">facebook</a></li>
-				<li><a href="http://www.soundcloud.com/oils">soundcloud</a></li>
-				<li><a href="http://whatevertapes.bandcamp.com/album/platform-diving-lessons-w4e-004">platform diving</a></li>
-				<li><a href="http://pyramidlakerecords.bandcamp.com/">self-titled cassette</a></li>
-				<li><a href="mailto:beadedhall@gmail.com">beadedhall@gmail.com</a></li>
-			</ul>
+				<li><a href="http://www.youtube.com/oilstheband" target="_blank">videos</a></li>
+        <li><a href="http://oilsoilsoils.bandcamp.com/">bandcamp</a></li>
+        <li><a href="mailto:beadedhall@gmail.com">beadedhall@gmail.com</a></li>
+      </ul>
+      <div class="fb-like" data-href="https://www.facebook.com/oilstheband" data-send="false" data-width="450" data-show-faces="true" data-colorscheme="dark"></div>
 		</div>
 	</body>
 </html>
