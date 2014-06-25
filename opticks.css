@@ -1,5 +1,5 @@
 * { margin:0; padding:0; }
-body, HTML { margin:25px; background: #121212 repeat-x; text-align:center; color: #fff; }
+body, html { margin:25px; background: #efefef; text-align:center; color: #121212; }
 ul { margin:25px; list-style: none; }
 h1, h2 { margin:25px; font-family: sans-serif; font-size: 38pt; }
 h2 { font-size: 24pt; }
