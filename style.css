@@ -21,8 +21,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body, html { height: 100%; margin: 0; padding: 0; background: #efefef; color: #121212; }
 
-body { background: url('/img/logo.jpg') no-repeat right; }
-
 header { float: left; margin: 2.61803em; }
 @media (min-width: 810px) { header { width: 14.10403%; float: left; margin-right: -100%; margin-left: 4.35839%; clear: none; } }
 header ul { list-style: none; margin: 0; }
