@@ -17,25 +17,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.container { margin: 0 auto; min-height: 100%; }
+.container { margin: 0 auto; min-height: 100%; overflow: auto; }
 
-body, html { height: 100%; margin: 0; padding: 0; background: #efefef; color: #121212; }
+body, html { height: 100%; margin: 0; padding: 0; background: #efefef; color: #121212; font-size: 16pt; }
 
-header { float: left; margin: 2.61803em; }
-@media (min-width: 810px) { header { width: 14.10403%; float: left; margin-right: -100%; margin-left: 4.35839%; clear: none; } }
+header { float: left; width: 20em; margin: 1em 2em; }
+.replay7inch { font-size: 16pt; margin-bottom: 1em; }
+.replay7inch img { width: 100%; }
+.replay7inch a { color: #0687f5; }
 header ul { list-style: none; margin: 0; }
-header ul li { margin-left: 0.5em; font-size: 16pt; line-height: 24pt; }
+header ul li { margin-left: 0.5em; line-height: 24pt; }
 header ul a { color: #0687f5; text-decoration: none; }
 header ul a:hover { text-decoration: underline; }
 header h1 { margin-bottom: 19pt; font-family: sans-serif; font-size: 38pt; }
-
-.bandcamp { float: left; margin: 2.61803em; }
-@media (min-width: 810px) { .bandcamp { width: 14.10403%; float: left; margin-right: -100%; margin-left: 4.35839%; clear: none; margin-top: 29.03444em; } }
-@media (min-width: 1160px) { .bandcamp { width: 14.10403%; clear: right; float: left; margin-left: 4.35839%; margin-right: 4.35839%; margin-top: 17.94427em; } }
-@media (min-width: 1366px) { .bandcamp { width: 22.82081%; float: left; margin-right: -100%; margin-left: 27.17919%; clear: none; margin-top: 0; margin-bottom: 0; } }
-
-.youtube { float: left; margin: 2.61803em; padding-bottom: 1.61803em; }
-@media (min-width: 810px) { .youtube { width: 22.82081%; float: left; margin-right: -100%; margin-left: 27.17919%; clear: none; margin-top: 6.8541em; } }
-@media (min-width: 1366px) { .youtube { width: 36.92484%; float: right; margin-left: 0; margin-right: 4.35839%; clear: none; margin-top: 6.8541em; } }
-
 .fb-like { margin-left: 0.5em; line-height: 24pt; }
+.bandcamp { float: left; margin: 1em 2em; margin-top: 0; }
+.youtube { margin: 1em 2em; float: left; width: 560px; }
